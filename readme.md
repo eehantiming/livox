@@ -8,10 +8,10 @@
     - [x] livox mapping 
     - [x] [FAST-LIO](https://github.com/DinoHub/FAST_LIO) 
     - [x] [FAST-LIO-SLAM](https://github.com/gisbi-kim/FAST_LIO_SLAM) | Not tested. Ceres, gtsam
-    - [ ] [R2LIVE](https://github.com/hku-mars/r2live) | make error
+    - [ ] [R2LIVE](https://github.com/hku-mars/r2live) | make error, Use its own docker image
     - [x] mavros
     - [x] PTP master (PTPD on host)
-    - [x] [loam livox](https://github.com/hku-mars/loam_livox) | rviz hangs after awhile  
+    - [x] [loam livox](https://github.com/hku-mars/loam_livox)   
     - [x] [LIO-SAM](https://github.com/Innopolis-UAV-Team/LIO-SAM/tree/livox)  
     - [x] [ssl-slam2](https://github.com/wh200720041/ssl_slam2)
     - [ ] [SFA3D](https://github.com/maudzung/SFA3D/tree/ea0222c1b35489dc35d8452c989c4b014e20e0da)
@@ -33,7 +33,6 @@ Activate with `tmux`. The basic controls are:
 - ctrl-a followed by . to split and create another pane below  
 - hold alt and press arrow keys to navigate between the panes  
 - ctrl-d (with nothing typed) to close unwanted panes  
-
 
 ### Livox ROS driver
 `roslaunch livox_ros_driver livox_lidar.launch`  
